@@ -37,9 +37,9 @@ class Complex
 		Complex operator *(Complex c2)
 		{
 			Complex op;
-			op.real = real * c2.real;
-			op.img = img * c2.img;
-			
+			op.real = (real * c2.real) - (img * c2.img);
+			op.img = (real * c2.img) + (img*c2.real);
+						
 			return op;
 		}
 		
