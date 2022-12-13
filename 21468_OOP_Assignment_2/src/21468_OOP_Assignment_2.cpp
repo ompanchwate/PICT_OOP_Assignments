@@ -41,6 +41,7 @@ public:
 		tel_no = "";
 	}
 
+	// Copy Constructor
 	Student(Student &std){
 			name = std.name;
 			roll_no = std.roll_no;
